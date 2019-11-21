@@ -1,7 +1,7 @@
 
 a{color:inherit;text-decoration:none;}
 
-*{list-style-type: none;margin:0;padding:0;line-height:1.5em;}
+*{list-style-type: none;margin:0;padding:0;line-height:1.5em;font-family: 'Noto Sans KR', sans-serif;}
 #clear{clear:both;}
 
 
@@ -156,7 +156,7 @@ header{width:80%;margin:auto;}
 .img_icons{float:left;width:27%;height:100%;text-align: center;cursor: pointer;padding:0 3% ;overflow: hidden;position: relative;}
 .img_icons:hover {text-align: center;transition:.5s all;}
 
-.img_icons>.left_to_right{background-color:rgba(0,0,0,0.5);position: absolute;width:100%;height:100%;z-index: 5;left:-100%;}
+.img_icons>.left_to_right{background-color:#DB2E12;position: absolute;width:100%;height:100%;z-index: 5;left:-100%;}
 
 
 .point{font-weight: bold; }
@@ -168,7 +168,7 @@ header{width:80%;margin:auto;}
 
 
 
-#icons{width:36.5%;margin:auto;height:80vh;}
+#icons{width:38%;margin:auto;height:80vh;}
 .icons{cursor:pointer;width:25.2vh;height:25.2vh;float:left;background-color:#333;position: relative;overflow: hidden;}
 .icons>img{position: absolute;top:0;left:0;height:100%;z-index:0;}
 .icons:hover>img{height:110%;transition:.8s all;top:-5%;left:-5%;}
